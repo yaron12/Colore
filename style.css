@@ -1,0 +1,174 @@
+body, .wrap, .up, .middle, .down, header, footer, h1, nav, ul, li, h1, h2, h3, h4, h5, h6, hr, p {
+	margin: 0;
+	padding: 0;
+}
+.wraper {
+	width: 100%;
+}
+body {
+	font-family: 'Noto Sans' ,sans-serif;
+}
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+}
+.container   p {
+	color: #9ca2ad;
+	margin: 2% 0;
+	font-size: 0.9em;
+}
+
+.up nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 3% 2%;
+	font-size: 0.8em;
+	text-align: right;
+}
+.up nav ul h1 {
+	font-size: 2em;
+	float: left;
+	margin: 1% auto;
+	width: 50%;
+}
+.up nav ul li:hover {
+	opacity: 0.9;
+	border: none;
+	color: white;
+	padding: 1.5%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.8em;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5%;
+	background-color: hsla(232, 60%, 23%, 0.87);
+}
+.up img {
+	vertical-align: top;
+}
+.up {
+	background-image: url("img/img01.jpg");
+}
+/*------------end up----------------*/
+.content .middle1 ul {
+	display: inline-block;
+	list-style: none;
+	width: 30%;
+	margin: 0 1.5%;
+}
+.content ul h3 {
+	margin: 12% 0;
+}
+hr {
+	margin: 5% 0;
+}
+.pic1 {
+	background-image: url("img/img06.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 130px;
+}
+.pic2 {
+	background-image: url("img/img07.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 130px;
+}
+.pic3 {
+	background-image: url("img/img08.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 130px;
+}
+.content .middle2 ul:first-child {
+	display: inline-block;
+	list-style: none;
+	width: 60%;
+	margin: 0 1.5%;
+	vertical-align: top;
+}
+.content .middle2 ul:last-child {
+	display: inline-block;
+	list-style: none;
+	width: 20%;
+	margin: 0 1.5%;
+}
+.content .middle2 ul:last-child h3 {
+	margin: 0;
+}
+.leftside img {
+	margin-right: 5%;
+}
+.leftside   button {
+    margin: 3% 0;
+    padding: 2%;
+}
+/*------------------end middle--------------*/
+.down {
+	background-image: url("img/img05.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: 5%;
+}
+.down ul {
+	list-style: none;
+	display: inline-block;
+	color: rgba(229, 245, 232, 0.51);
+	width: 30%;
+	margin: 1% 1.5%;
+}
+.down ul h3 {
+	color: white;
+	margin: 12% 0;
+}
+.down ul hr, .middle2 hr {
+	border-color: lightslategray;
+	border-width: 0.1em;
+	border-top: 0.1em;
+	width:90%;
+}
+.down ul li:last-child {
+	margin-bottom: 12%;
+}
+button {
+	background-color: hsla(232, 60%, 23%, 0.87);
+	color: white;
+	padding: 3%;
+	text-align: center;
+	font-size: 1em;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 7%;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		    font-size: 0.7em;
+            width: 100%;
+            margin: 14%;
+	}
+}
+@media screen and (max-width: 600px) {
+	nav ul li{
+		    display: block;
+		    width: 100%;
+		    margin: 0 auto;
+	}
+	nav ul {
+		    display: block;
+		    width: 100%;
+	}
+	.content ul{
+		display: block;
+		    width: 100%;
+		    margin: 0 auto;
+		    position: relative;
+	}
+	.container{
+		width: 95%;
+		display: block;
+		    width: 100%;
+		    margin: 0 auto;
+	}		
+}
