@@ -150,25 +150,23 @@ button {
 	}
 }
 @media screen and (max-width: 600px) {
-	nav ul li{
+	.down ul,.content .middle1 ul,.content .middle2 ul{
 		    display: block;
 		    width: 100%;
-		    margin: 0 auto;
+			text-align:center;
+			margin:1%;
+			font-size:1em;
+	}	
+	.container .leftside ul:last-child{
+		display:none;
 	}
-	nav ul {
-		    display: block;
-		    width: 100%;
-	}
-	.content ul{
-		display: block;
-		    width: 100%;
-		    margin: 0 auto;
-		    position: relative;
-	}
-	.container{
-		width: 95%;
-		display: block;
-		    width: 100%;
-		    margin: 0 auto;
-	}		
+		.container .leftside ul:first-child{
+			width:100%;
+		}
+		hr{
+			margin:2%;
+		}
+		.container{
+			        margin: 1% 15%;
+		}		
 }
